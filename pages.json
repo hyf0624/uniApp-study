@@ -2,24 +2,37 @@
 	"pages": [{
 			"path": "pages/home/home",
 			"style": {
+<<<<<<< HEAD
 				"navigationBarTitleText": "uni-app"
+=======
+				"enablePullDownRefresh": false
+>>>>>>> 1df313771d7ec80a4bf217a848c1deec25a91b87
 			}
 		},
 		{
 			"path": "pages/cate/cate",
 			"style": {
+<<<<<<< HEAD
 				"navigationBarTitleText": "uni-app"
+=======
+				"enablePullDownRefresh": false
+>>>>>>> 1df313771d7ec80a4bf217a848c1deec25a91b87
 			}
 		},
 		{
 			"path": "pages/cart/cart",
 			"style": {
+<<<<<<< HEAD
 				"navigationBarTitleText": "uni-app"
+=======
+				"enablePullDownRefresh": false
+>>>>>>> 1df313771d7ec80a4bf217a848c1deec25a91b87
 			}
 		},
 		{
 			"path": "pages/my/my",
 			"style": {
+<<<<<<< HEAD
 				"navigationBarTitleText": "uni-app"
 			}
 		}
@@ -38,6 +51,17 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#C00000",
 		"backgroundColor": "#F8F8F8",
+=======
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "黑马优购",
+		"navigationBarBackgroundColor": "#C00000",
+		"backgroundColor": "#FFFFFF",
+>>>>>>> 1df313771d7ec80a4bf217a848c1deec25a91b87
 		"app-plus": {
 			"background": "#efeff4"
 		}

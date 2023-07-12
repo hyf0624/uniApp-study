@@ -1,5 +1,6 @@
 <template>
 	<view>
+<<<<<<< HEAD
 		<swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000" :circular="true">
 			<swiper-item v-for="(item, index) in swiperList" :key="index">
 				<navigator :url="`/subpkg/goods_detail/goods_detail?goods_id=${item.goods_id}`" class="swiper-item">
@@ -7,6 +8,9 @@
 				</navigator>
 			</swiper-item>
 		</swiper>
+=======
+		
+>>>>>>> 1df313771d7ec80a4bf217a848c1deec25a91b87
 	</view>
 </template>
 
@@ -14,6 +18,7 @@
 	export default {
 		data() {
 			return {
+<<<<<<< HEAD
 				// 轮播图的数据列表
 				swiperList: []
 			}
@@ -37,11 +42,16 @@
 		onLoad() {
 			// 获取轮播图的数据
 			this.getSwiperList()
+=======
+				
+			};
+>>>>>>> 1df313771d7ec80a4bf217a848c1deec25a91b87
 		}
 	}
 </script>
 
 <style lang="scss">
+<<<<<<< HEAD
 	swiper {
 		height: 330rpx;
 
@@ -52,3 +62,7 @@
 		}
 	}
 </style>
+=======
+
+</style>
+>>>>>>> 1df313771d7ec80a4bf217a848c1deec25a91b87
