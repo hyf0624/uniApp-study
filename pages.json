@@ -35,7 +35,7 @@
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "黑马优购",
+		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#C00000",
 		"backgroundColor": "#FFFFFF",
 		"app-plus": {
