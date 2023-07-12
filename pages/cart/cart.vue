@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-<template></template>
-
-<script></script>
-
-<style></style>
-=======
 <template>
 	<view>
-		
+
 	</view>
 </template>
 
@@ -15,7 +8,7 @@
 	export default {
 		data() {
 			return {
-				
+
 			};
 		}
 	}

@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-<template></template>
 
-<script></script>
-
-<style></style>
-=======
 <template>
 	<view>
 		
