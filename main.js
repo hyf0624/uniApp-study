@@ -17,10 +17,20 @@ $http.beforeRequest = function(options) {
 	})
 }
 
+
 // 响应拦截器
-$http.afterRequest = function(){
+$http.afterRequest = function() {
 	// 关闭loading效果
 	uni.hideLoading()
+}
+
+// 封装弹窗的方法
+uni.$showMsg = function(title = '数据请求失败', duration = 1500) {
+	uni.showToast({
+		title,
+		duration,
+		icon: 'none'
+	})
 }
 Vue.config.productionTip = false
 
