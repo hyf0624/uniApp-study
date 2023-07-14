@@ -1,7 +1,6 @@
-
 <template>
 	<view>
-		
+		goods_list
 	</view>
 </template>
 
@@ -9,13 +8,17 @@
 	export default {
 		data() {
 			return {
-				
-			};
+
+			}
+		},
+		methods: {
+
+		},
+		onLoad(options) {
+			console.log(options)
 		}
 	}
 </script>
 
-<style lang="scss">
-
+<style>
 </style>
-
